@@ -28,9 +28,9 @@ from dataframe import *
 app = Flask(__name__)
 
 # 必須放上自己的Channel Access Token(在line那邊按下issue)
-line_bot_api = LineBotApi('CH3wOyE/D+WDGV9W7RWE/BsjOnBaM+ek4dm6GFO5THJjkxO7mcqBUNviesI7fJMdKM7fRxKgIZnbY11TU9SU2wWYuW8EI06LFl8iRIKtNdwgAv53ZKFyCtTQNR67hLoRn1q7wHupV/QIeLfU4SDnzAdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('')
 # 必須放上自己的Channel Secret
-handler = WebhookHandler('8123ee61268493ff2d037552df0089b5')
+handler = WebhookHandler('')
 
 
 # 監聽所有來自 /callback 的 Post Request
